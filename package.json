@@ -1,0 +1,21 @@
+{
+  "name": "@moneypot/dice-controller",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.js",
+    "dev": "tsx watch src/index.ts",
+    "resetdb": "dropdb dice-controller && createdb dice-controller"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@moneypot/caas": "^10.0.0",
+    "@moneypot/hash-herald": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.9.0",
+    "postgraphile": "^5.0.0-beta.29",
+    "tsx": "^4.19.0"
+  }
+}
