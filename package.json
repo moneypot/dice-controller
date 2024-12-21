@@ -11,11 +11,11 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@moneypot/caas": "^10.1.2",
+    "@moneypot/caas": "^12.0.0",
     "@moneypot/hash-herald": "^1.0.0",
     "dotenv": "^16.4.5",
     "graphql": "^16.9.0",
-    "postgraphile": "^5.0.0-beta.29",
+    "postgraphile": "^5.0.0-beta.37",
     "tsx": "^4.19.0"
   }
 }
